@@ -14,7 +14,7 @@ export default function Dashboard() {
       <div className="flex-1 p-6 ml-4">
         <header className="flex justify-between items-center">
           <h1 className="text-2xl font-bold">Home</h1>
-          <span className="text-gray-600">Today's Date: {new Date().toISOString().split("T")[0]}</span>
+          <span className="text-gray-600">Today&#39;s Date: {new Date().toISOString().split("T")[0]}</span>
         </header>
 
         <div className="bg-blue-100 p-6 mt-4 rounded-lg flex justify-between">
@@ -22,7 +22,7 @@ export default function Dashboard() {
           <div>
             <h2 className="text-xl font-semibold">Welcome!</h2>
             <p className="text-gray-700">
-              Haven't any idea about doctors? No problem! Let's jump to "All Doctors" section or "Sessions".
+              Havenot any idea about doctors? No problem! Let&#39;s jump to &#39;All Doctors&#39; section or Sessions.
             </p>
             <p className="text-gray-600">Track your past and future appointments.</p>
           </div>
