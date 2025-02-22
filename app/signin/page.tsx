@@ -25,8 +25,8 @@ export default function Signup() {
           </div>
 
           <div>
-            <Label htmlFor="address">Address:</Label>
-            <Input id="address" placeholder="Address" />
+            <Label htmlFor="email">Email:</Label>
+            <Input id="address" placeholder="Enter E-mail" />
           </div>
 
           <div>
@@ -39,9 +39,8 @@ export default function Signup() {
             <Input id="dob" type="date" />
           </div>
 
-          <div className="flex space-x-2">
-            <Button variant="outline" className="flex-1 bg-blue-200">Reset</Button>
-            <Button className="flex-1 bg-blue-600">Next</Button>
+          <div className="">
+            <Link href="/dashboard"><Button className="w-full bg-blue-600">Next</Button></Link>
           </div>
 
           <p className="text-center text-sm">
