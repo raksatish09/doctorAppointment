@@ -44,7 +44,7 @@ export default function Signup() {
           </div>
 
           <p className="text-center text-sm">
-            Already have an account?{' '}
+            Already have an account?{" "}
             <Link href="/login" className="font-semibold text-black-600">Login</Link>
           </p>
         </CardContent>

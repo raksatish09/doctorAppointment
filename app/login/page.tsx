@@ -64,6 +64,7 @@ export default function Login() {
                 </button>
               </div>
             </div>
+            <Link href="/dashboard">
             <Button
               type="submit"
               className="w-full mt-5 bg-blue-600 hover:bg-blue-700"
@@ -71,6 +72,7 @@ export default function Login() {
             >
               Login
             </Button>
+            </Link>
           </form>
           <p className="text-center text-sm text-gray-500 mt-4">
             Don&#39;t have an account?{' '}

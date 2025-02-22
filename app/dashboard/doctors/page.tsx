@@ -33,7 +33,7 @@ export default function DoctorsPage() {
             </CardContent>
             <CardFooter className="flex justify-between">
               <Button variant="outline" onClick={() => setSelectedDoctor(null)}>Back</Button>
-              <Link href="/book"> <Button>Book</Button></Link>
+              <Link href="/dashboard/book"><Button>Book</Button></Link>
             </CardFooter>
           </Card>
         ) : (
