@@ -6,8 +6,12 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import Link from 'next/link';
 import { Eye, EyeOff } from 'lucide-react'; // Icons for show/hide password
+import { useAuth } from "@/contexts/AuthContext"; // ✅ Import useAuth()
+
 
 export default function Login() {
+  const { setUser } = useAuth();
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -17,6 +21,7 @@ export default function Login() {
   const handleEmailChange = (e) => {
     const value = e.target.value;
     setEmail(value);
+    setUser(value);
 
     if (!value.includes('@gmail.com')) {
       setError("Email must contain '@gmail.com'");

@@ -10,8 +10,8 @@ import { X, Lock, Bell, User } from "lucide-react";
 
 export default function SettingsPage() {
   const router = useRouter();
-  const [name, setName] = useState("John Doe");
-  const [email, setEmail] = useState("johndoe@example.com");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   return (
